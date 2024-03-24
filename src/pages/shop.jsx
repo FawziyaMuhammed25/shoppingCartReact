@@ -10,7 +10,7 @@ export const Shop = ()=>{
             <div className="shopTitle">
                 <h1>Shopping OnLine</h1>
             </div>
-            <div className="products">
+            <div className="row">
                      {PRODUCTS.map( (product) =>(
                          <Product data={product}/>
                      )) }
